@@ -1,0 +1,33 @@
+Warlords and Scumbags
+CSCI367 Networking Project
+Elliot Starks
+<README>
+
+...<Notes>
+
+...<Game logic>
+
+...<Protocol>
+
+...<Meta>
+
+...<Bugs>
+
+- (auto-mode) client/server hand drops out of sync occasionally
+- (auto-mode) player strikes out --> game halted
+	- could this be a processing issue?
+- last card in hand/played 48-51 -> next player turn
+- swap 
+	- cards not removed/appended properly?
+	- warlord should be first on ranked game - currently scumbag
+- new hand - active player/current player out of sync 
+- old table message sent before new when next round initiated
+- played two cards of the same face value as the one on stack
+  --> play not registered - player goes again as if nothing played (reproduce?)
+- [42,45,52,52] accepted as valid play (???)
+- last player will not timeout - endless strikes
+
+...<Extra>
+
+- GUI
+- AI
